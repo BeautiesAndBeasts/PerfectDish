@@ -41,14 +41,14 @@ class TestControllerJovana extends CI_Controller {
     {
         $this->model->brisiRecept($id);
         $data = $this->model->dohvatiRecepti($id);      
-        $this->unit->run($data, NULL, "Recept ne moze da se izbrise.");
+        $this->unit->run($data, NULL, "Neuspesno brisanje recepta.");
     }
     
     function testObrisiReceptUspesan($id)
     {
         $this->model->brisiRecept($id);
         $data = $this->model->dohvatiRecepti($id);
-        $this->unit->run($data, NULL, "Recept uspesno obrisan");
+        $this->unit->run($data, NULL, "Uspesno brisanje recepta");
     }  
     
     function dohvatiMojeRecepteNeuspesno($id)
