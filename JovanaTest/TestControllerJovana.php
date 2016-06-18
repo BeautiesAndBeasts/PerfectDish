@@ -36,7 +36,8 @@ class TestControllerJovana extends CI_Controller {
        $this->load->view("testsJovana");
     }
     
-    
+
+
     function testObrisiReceptNeuspesan($id)
     {
         $this->model->brisiRecept($id);
