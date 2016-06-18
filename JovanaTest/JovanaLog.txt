@@ -1,0 +1,20 @@
+    [info] Playing test case Untitled
+    [info] Executing: |open | /perfectdish/index.php | |
+    [info] Executing: |type | name=korisnickoIme | goranpavlovic |
+    [info] Executing: |type | name=korisnickoIme | goranpavlovic |
+    [info] Executing: |type | name=lozinka | ababab |
+    [info] Executing: |type | name=lozinka | ababab |
+    [info] Executing: |click | name=submit | |
+    [info] Executing: |clickAndWait | name=submit | |
+    [info] Executing: |click | link=Moji recepti | |
+    [info] Executing: |clickAndWait | link=Moji recepti | |
+    [info] Executing: |click | link=Obrisite ovaj recept | |
+    [info] Executing: |clickAndWait | link=Obrisite ovaj recept | |
+    [info] Executing: |click | link=Napisi recept | |
+    [info] Executing: |clickAndWait | link=Napisi recept | |
+    [info] Executing: |verifyValue | name=vremePripreme | |
+    [info] Executing: |verifyValue | name=tekstRecepta | |
+    [info] Executing: |click | name=submit | |
+    [info] Executing: |clickAndWait | name=submit | |
+    [info] Test case passed 
+
